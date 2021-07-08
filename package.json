@@ -1,8 +1,8 @@
 {
   "name": "imagemin-cli-lazy",
-  "version": "0.0.1",
+  "version": "0.5.0",
   "description": "一个图片压缩命令行工具，支持输入png格式，输出png、webp格式",
-  "main": "index.js",
+  "main": "./bin/imagemin-cli-lazy.js",
   "bin": {
     "imgmin": "./bin/imagemin-cli-lazy.js"
   },
@@ -16,8 +16,13 @@
     "compress",
     "cli"
   ],
+  "homepage": "https://github.com/buddywang/imagemin-cli-lazy#readme",
   "author": "buddywang",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/buddywang/imagemin-cli-lazy#readme"
+  },
+  "license": "MIT",
   "dependencies": {
     "commander": "^8.0.0",
     "imagemin": "7.0.1",

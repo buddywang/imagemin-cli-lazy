@@ -18,9 +18,9 @@ npm install -g imagemin-cli-lazy
 
 - **压缩单张图片**
 
-- `imgmin one -i /path/to/image`: 压缩指定路径的图片，输出格式不变，默认输出到当前 `min` 目录下。
-- `imgmin one -i /path/to/image -o ./images`: 压缩指定路径的图片，输出格式不变，输出到当前 `images` 目录下。
-- `imgmin one -i /path/to/image.png -t webp png`: 压缩指定路径的图片，输出webp和png两种格式，默认输出到当前 `min` 目录下。
+  - `imgmin one -i /path/to/image`: 压缩指定路径的图片，输出格式不变，默认输出到当前 `min` 目录下。
+  - `imgmin one -i /path/to/image -o ./images`: 压缩指定路径的图片，输出格式不变，输出到当前 `images` 目录下。
+  - `imgmin one -i /path/to/image.png -t webp png`: 压缩指定路径的图片，输出webp和png两种格式，默认输出到当前 `min` 目录下。
 
 ### 指定压缩质量
 
